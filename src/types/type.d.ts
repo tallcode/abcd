@@ -1,22 +1,22 @@
 interface ConstituentText {
-    molecularWeight?: string;
-    concentration?: string;
-    proportion?: string;
+  molecularWeight?: string
+  concentration?: string
+  proportion?: string
 }
 
 interface Constituent {
-    molecularWeight: number;
-    concentration: number;
-    proportion: number;
-    volume: number;
+  molecularWeight: number
+  concentration: number
+  proportion: number
+  volume: number
 }
 
 interface LipidText {
-    concentration?: string;
-    volume?: string;
+  concentration?: string
+  volume?: string
 }
 
 interface Lipid {
-    concentration: number;
-    volume: number;
+  concentration: number
+  volume: number
 }
